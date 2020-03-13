@@ -6,10 +6,13 @@ body{
 }
 figure{
     display: inline-block;
+    width: 30%;
+    text-align: center;
 }
 header section{
     display: inline-block;
-    margin-left: 20%;
+    width: 67%;
+    text-align: right;
 }
 header {
     background-color: black;
@@ -19,5 +22,28 @@ header figure h1{
     color: white;
 }
 input {
-    border-radius: 6px;
+    width: 350px;
+    height: 20px;
+    margin-right: -4.5px;
+}
+button{
+    background-color: red;
+    color: thistle;
+    border: none;
+    width: 65px;
+    height: 26px;
+}
+main section img{
+    background-size: contain;
+}
+main section h2{
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: thistle;
+    background-color: red;
+    font-size: 16px;
+}
+main section div {
+    text-align: center;
 }
